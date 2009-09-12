@@ -1,0 +1,22 @@
+// WHMCS Ticket RSS Feed
+// (c) 2009 Eden Akhavi
+//
+// No warranty expressed or implied
+//
+// Released under GPL v3 license
+// http://www.gnu.org/licenses/gpl-3.0.html
+//
+
+
+1. Create rss directory under your WHMCS root
+2. Copy the files rss.php and class.rss.php to this directory
+3. Open a browser to your WHMCS site with /rss/rss.php appended:
+
+   http://IP ADDRESS/whmcs/rss/rss.php?Username=admin&Password=admin&Dept=2
+
+   Username = An administrator
+   Password = Password :)
+   Dept = Department Number. If you specify Dept=0 then it will pass all authorised departments
+
+
+
